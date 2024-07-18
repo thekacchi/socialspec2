@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+   content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet"
+   href="https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap">
+  <link rel="stylesheet"
+   href="test-style.css">
+  <title>Imagination Survey</title>
+ </head>
+ <body>
+  
+  <div class="container">
+   
+   <div class="flex-box intro answer">
+    
+    <h3>Just a few things you probably
+     already know..</h3>
+    <p>A personality test is not a scored
+     quiz, there is no right or wrong answer
+     and no answer has to be the same for
+     any two people.</p>
+    <p>The goal is to do the tasks without
+     overthinking and answer the
+     questions as honestly as you can. Happy
+     findings...</p>
+   </div>
+   <h1 class="headers">The Cube Test</h1>
+   <!-- Task 1 -->
+   <div class=" flex-box imagine">
+    <h2>Task 1</h2>
+    <h3>Think of an open field</h3>
+    <p>Take a few seconds to create a mental
+     picture of an open field, absorb the
+     image as it comes to you and take note
+     of a few details about your field
+     before continuing to answer the
+     questions</p>
+   </div>
+   <!-- Question 1-1 -->
+   <div class="flex-box question">
+    <h3>Question 1-1</h3>
+    <p>How big is your field?</p>
+    <!--/div-->
+    <!-- Options for Question 1-1 -->
+    <div class="flex-box answer answer1-1">
+     <button
+      onclick="selectButton(this, '1-1', 'large')"><strong>Large</strong><br>(town
+      size)</button>
+     <button
+      onclick="selectButton(this, '1-1', 'small')"><strong>Small</strong><br>(soccer
+      pitch)</button>
+     <button
+      onclick="selectButton(this, '1-1', 'verySmall')"><strong>Very
+       Small</strong><br>(a garden)</button>
+    </div>
+   </div>
+   
+   <!-- Question 1-2 -->
+   <div class="flex-box question">
+    <h3>Question 1-2</h3>
+    <p>How would you describe the grass in
+     your field?</p>
+    <!-- Options for Question 1-2 -->
+    <div class="flex-box answer answer1-2">
+     <button
+      onclick="selectButton(this, '1-2', 'grassy')"><strong>Grassy</strong></button>
+     <button
+      onclick="selectButton(this, '1-2', 'dried')"><strong>Dried</strong></button>
+     <button
+      onclick="selectButton(this, '1-2', 'trimmed')"><strong>Trimmed</strong></button>
+    </div>
+   </div>
+   
+   <!-- Task 2 -->
+   <div class="flex-box imagine">
+    <h2>Task 2</h2>
+    <h3>Think of a cube</h3>
+    <p>Take note of your cube's size,
+     material and texture</p>
+   </div>
+   
+   
+   <!-- Question 2-1 -->
+   <div class="flex-box question">
+    <h3>Question 2-1</h3>
+    <p>Which of these is closest in size to
+     your cube?</p>
+    <!-- Options for Question 2-1 -->
+    <div class="flex-box answer answer2-1">
+     <button
+      onclick="selectButton(this, '2-1', 'sugar')"><strong>Sugar</strong></button>
+     <button
+      onclick="selectButton(this, '2-1', 'car')"><strong>A
+       Car</strong></button>
+     <button
+      onclick="selectButton(this, '2-1', 'house')"><strong>A
+       House</strong></button>
+    </div>
+   </div>
+   
+   <!-- Question 2-2 -->
+   <div class="flex-box question">
+    <h3>Question 2-2</h3>
+    <p>What is the surface of your cube
+     like?
+    </p>
+   </div>
+   <!-- Options for Question 2-2 -->
+   <div class="flex-box answer answer2-2">
+    <button
+     onclick="selectButton(this, '2-2', 'smooth')"><strong>Smooth</strong></button>
+    <button
+     onclick="selectButton(this, '2-2', 'rough')"><strong>Rough</strong></button>
+    <button
+     onclick="selectButton(this, '2-2', 'bumpy')"><strong>Bumpy/Spiky</strong></button>
+   </div>
+   
+   
+   <!-- Question 2-3 -->
+   <div class="flex-box question">
+    <h3>Question 2-3</h3>
+    <p>What is the color of your cube?</p>
+    
+    <p>Choose the most related color if the
+     exact
+     color is not listed here.</p>
+    <!-- Options for Question 2-3 -->
+    <div class="flex-box answer answer2-3">
+     <button
+      onclick="selectButton(this, '2-3', 'red')"><strong>Red</strong></button>
+     <button
+      onclick="selectButton(this, '2-3', 'yellow')"><strong>Yellow</strong></button>
+     <button
+      onclick="selectButton(this, '2-3', 'blue')"><strong>Blue</strong></button>
+     <button
+      onclick="selectButton(this, '2-3', 'violet')"><strong>Violet</strong></button>
+     <button
+      onclick="selectButton(this, '2-3', 'grey')"><strong>Grey</strong></button>
+     <button
+      onclick="selectButton(this, '2-3', 'black')"><strong>Black</strong></button>
+     <button
+      onclick="selectButton(this, '2-3', 'white')"><strong>White</strong></button>
+    </div>
+   </div>
+   
+   <!-- Question 2-4 -->
+   <div class="flex-box question">
+    <h3>Question 2-4</h3>
+    <p>What is your cube made of?</p>
+    <!-- Options for Question 2-4 -->
+    <div class="flex-box answer answer2-4">
+     <button
+      onclick="selectButton(this, '2-4', 'fluid')"><strong>Water/
+       Ice</strong><br>(fluid)</button>
+     <button
+      onclick="selectButton(this, '2-4', 'hollow')"><strong>Wood/
+       Plastic</strong><br>(hollow)</button>
+     <button
+      onclick="selectButton(this, '2-4', 'hard')"><strong>Metal/
+       Rock</strong><br>(hard)</button>
+    </div>
+   </div>
+   
+   <!-- Question 2-5 -->
+   <div class="flex-box question">
+    <h3>Question 2-5</h3>
+    <p>Is your cube transparent?
+     
+     Can I see through it or see what's
+     inside?</p>
+    <!-- Options for Question 2-5 -->
+    <div class="flex-box answer answer2-5">
+     <button
+      onclick="selectButton(this, '2-5', 'transparent')"><strong>Yes,
+       you
+       can!</strong><br>(transparent)</button>
+     <button
+      onclick="selectButton(this, '2-5', 'opaque')"><strong>No,
+       you
+       can't!</strong><br>(opaque)</button>
+    </div>
+   </div>
+   
+   <!-- Repeat similar structure for other questions in Task 2 -->
+   
+   
+   <!-- Task 3 -->
+   <div class="flex-box imagine">
+    <h2>Task 3</h2>
+    <h3>Think of a Ladder</h3>
+    <p>Take note of its length and position
+    </p>
+   </div>
+   <!-- Question 3-1 -->
+   <div class="flex-box question">
+    <h3>Question 3-1</h3>
+    <p>How long is your ladder?</p>
+    <!-- Options for Question 3-1 -->
+    <div class="flex-box answer answer3-1">
+     <button
+      onclick="selectButton(this, '3-1', 'short')"><strong>Short</strong><br>(1
+      storey)</button>
+     <button
+      onclick="selectButton(this, '3-1', 'long')"><strong>Long</strong><br>(2/
+      more storeys)</button>
+    </div>
+   </div>
+   
+   <!-- Question 3-2 -->
+   <div class="flex-box question">
+    <h3>Question 3-2</h3>
+    <p>Where in your field is your ladder?
+    </p>
+    <!-- Options for Question 3-2 -->
+    <div class="flex-box answer answer3-2">
+     <button
+      onclick="selectButton(this, '3-2', 'close')"><strong>Close
+       to Me</strong></button>
+     <button
+      onclick="selectButton(this, '3-2', 'far')"><strong>Far
+       from Me</strong></button>
+    </div>
+   </div>
+   
+   <!-- Question 3-3 -->
+   <div class="flex-box question">
+    <h3>Question 3-3</h3>
+    <p>What is the gap between your ladder
+     and cube like?</p>
+    <!-- Options for Question 3-3 -->
+    <div class="flex-box answer answer3-3">
+     <button
+      onclick="selectButton(this, '3-3', 'much')"><strong>Much</strong><br>(far
+      apart)</button>
+     <button
+      onclick="selectButton(this, '3-3', 'little')"><strong>Little</strong><br>(quite
+      close)</button>
+     <button
+      onclick="selectButton(this, '3-3', 'leaning')"><strong>Leaning</strong><br>(no
+      gap)</button>
+    </div>
+   </div>
+   
+   <!-- Repeat similar structure for other questions in Task 3 -->
+   
+   
+   <!-- Task 4 -->
+   <div class="flex-box imagine">
+    <h2>Task 4</h2>
+    <h3>Think of a horse.</h3>
+    <p>This should be fun</p>
+   </div>
+   <!-- Question 4-1 -->
+   <div class="flex-box question">
+    <h3>Question 4-1</h3>
+    <p>What is the color of your </p>
+    <!-- Options for Question 4-1 -->
+    <div class="flex-box answer answer4-1">
+     <button
+      onclick="selectButton(this, '4-1', 'brownh')"><strong>Brown</strong></button>
+     <button
+      onclick="selectButton(this, '4-1', 'whiteh')"><strong>White</strong></button>
+     <button
+      onclick="selectButton(this, '4-1', 'blackh')"><strong>Black</strong></button>
+     <button
+      onclick="selectButton(this, '4-1', 'none')"><strong>None</strong></button>
+    </div>
+   </div>
+   
+   <!-- Question 4-2 -->
+   <div class="flex-box question">
+    <h3>Question 4-2</h3>
+    <p>What is your horse doing?</p>
+    <!-- Options for Question 4-2 -->
+    <div class="flex-box answer answer4-2">
+     <button
+      onclick="selectButton(this, '4-2', 'playing')"><strong>Playing</strong></button>
+     <button
+      onclick="selectButton(this, '4-2', 'running')"><strong>Running</strong></button>
+     <button
+      onclick="selectButton(this, '4-2', 'grazing')"><strong>Grazing/
+       Sleeping</strong></button>
+    </div>
+   </div>
+   
+   <!-- Question 4-3 -->
+   <div class="flex-box question">
+    <h3>Question 4-3</h3>
+    <p>Is your horse very near to the cube
+     or
+     a bit further away from it?</p>
+    <!-- Options for Question 4-3 -->
+    <div class="flex-box answer answer4-3">
+     <button
+      onclick="selectButton(this, '4-3', 'nearh')"><strong>Very
+       Near</strong></button>
+     <button
+      onclick="selectButton(this, '4-3', 'farh')"><strong>Further
+       Away</strong></button>
+    </div>
+   </div>
+   
+   <!-- Repeat similar structure for other questions in Task 4 -->
+   
+   
+   <!-- Task 5 -->
+   <div class="flex-box imagine">
+    <h2>Task 5</h2>
+    <h3>Back to your Field</h3>
+    <p>Let's chat about your field again</p>
+   </div>
+   <!-- Question 5-1 -->
+   <div class="flex-box question">
+    <h3>Question 5-1</h3>
+    <p>Is your field bursting with flowers
+     or
+     are there just a few?</p>
+    <!-- Options for Question 5-1 -->
+    <div class="flex-box answer answer5-1">
+     <button
+      onclick="selectButton(this, '5-1', 'few')"><strong>Just
+       a Few</strong></button>
+     <button
+      onclick="selectButton(this, '5-1', 'everywhere')"><strong>They're
+       Everywhere</strong></button>
+    </div>
+   </div>
+   
+   <!-- Question 5-2 -->
+   <div class="flex-box question">
+    <h3>Question 5-2</h3>
+    <p>What is the weather in you field
+     like?
+    </p>
+    <!-- Options for Question 5-2 -->
+    <div class="flex-box answer answer5-2">
+     <button
+      onclick="selectButton(this, '5-2', 'rain')"><strong>Rain</strong></button>
+     <button
+      onclick="selectButton(this, '5-2', 'fog')"><strong>Fog</strong></button>
+     <button
+      onclick="selectButton(this, '5-2', 'wind')"><strong>Wind</strong></button>
+     <button
+      onclick="selectButton(this, '5-2', 'sun')"><strong>Sun</strong></button>
+    </div>
+   </div>
+   
+   <!-- Repeat similar structure for other questions in Task 5 -->
+   
+   
+   <!-- Task 6 -->
+   <div class="flex-box imagine">
+    <h2>Task 6</h2>
+    <h3>Think of a storm cloud.</h3>
+    <p>A heavy dense cloud is hovering on
+     your field, looks like it is about to
+     rain.</p>
+   </div>
+   <!-- Question 6-1 -->
+   <div class="flex-box question">
+    <h3>Question 6-1</h3>
+    <p>Where is the storm in relation to
+     your
+     cube?</p>
+    <!-- Options for Question 6-1 -->
+    <div class="flex-box answer answer6-1">
+     <button
+      onclick="selectButton(this, '6-1', 'above')"><strong>Right
+       Above It</strong></button>
+     <button
+      onclick="selectButton(this, '6-1', 'background')"><strong>In
+       the Background</strong></button>
+    </div>
+   </div>
+   
+   <!-- Question 6-2 -->
+   <div class="flex-box question">
+    <h3>Question 6-2</h3>
+    <p>How intense is the storm?</p>
+    <!-- Options for Question 6-2 -->
+    <div class="flex-box answer answer6-2">
+     <button
+      onclick="selectButton(this, '6-2', 'mild')"><strong>Mild</strong><br>(just
+      little rain)</button>
+     <button
+      onclick="selectButton(this, '6-2', 'intense')"><strong>Intense</strong><br>(eye
+      of the storm)</button>
+    </div>
+   </div>
+   
+   <!-- Repeat similar structure for other questions in Task 6 -->
+   
+   <div>
+    <p id="alert"></p>
+   </div>
+   
+   <!-- Results Button -->
+   <div class="flex-box results-button">
+    <button
+     onclick="checkAnswersAndNavigate('results.html')"><strong>See
+      Results</strong></button>
+   </div>
+  </div>
+  
+  
+  
+  <div>
+   <p id="answersListDisplay">
+    <strong>Selections</strong>
+   </p>
+  </div>
+  <!-- JavaScript script -->
+  <script src="testt-script.js"></script>
+ </body>
+</html>
+
